@@ -182,3 +182,22 @@
   );
   background-size: 200% 100%;
 }
+
+@keyframes shimmer {
+  0%   { background-position: 200% center; }
+  100% { background-position: -200% center; }
+}
+
+/* Print styles — hides everything except the report when printing */
+@media print {
+  body > * { display: none !important; }
+  #lesson-plan-report {
+    display: block !important;
+    position: fixed;
+    inset: 0;
+    padding: 2rem;
+    font-size: 13px;
+    color: #1b1a18;
+    background: white;
+  }
+}
