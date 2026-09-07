@@ -15,6 +15,8 @@
 A front-end-only React starter for building humorphic AI-teammate interactions.
 There is no backend and no real model. The interaction is the deliverable.
 
+Try out a demo of this project by [clicking here](https://vacobb.github.io/fuego-fridays-starter/).
+
 ## Contents
 
 - [The challenge](#the-challenge)
